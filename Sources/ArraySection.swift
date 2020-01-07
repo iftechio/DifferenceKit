@@ -66,3 +66,4 @@ extension ArraySection: CustomDebugStringConvertible {
         """
     }
 }
+extension ArraySection: Codable where Model: Codable, Element: Codable {}
